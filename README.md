@@ -40,3 +40,11 @@ If you want to finish the application, press "Ctrl+C" on your terminal where pys
 To deactivate the venv just type "deactivate" on your terminal where the venv is running.
 
 
+## Uninstall
+
+To uninstall the venv, just open the terminal and type:
+
+```
+$ make clean
+```
+

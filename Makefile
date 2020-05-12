@@ -7,10 +7,11 @@ venv:
 	@echo "Inicializa uma venv local."
 	virtualenv venv -p python3.7
 
-install: wget venv
+install: 
+	$ make venv
 	@echo "Instala as dependências numa venv local."
 	${PIP} install -r requirements.txt
 
 clean: 
 	@echo "Remove a venv local."
-	rm -rf venv data
+	rm -rf venv
