@@ -1,4 +1,4 @@
-# Analyzing my college grades with Jupiter Notebook and PySpark
+# Analyzing my college grades with Jupyter Notebook and PySpark
 
 The main goal of this project is to just practice a little bit of PySpark combined with Jupyter and Pandas. There’s nothing that much incredible here, I just read a csv file with my grades to a Spark Dataframe and use it to calculate some data. Then I plot a few graphs with Pandas. All of this running on a Jupyter Notebook.
 
